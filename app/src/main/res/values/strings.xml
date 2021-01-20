@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Project_Mobile_Kelompok2</string>
-    <string name="titleOne">Username</string>
-    <string name="titleTwo">Password</string>
-
+    <string name="tambah_produk">Add</string>
+    <string name="list_produk">List</string>
+    <string name="edit_produk">Edit</string>
+    <string name="controls">Controls</string>
+    <string name="setting">Setting</string>
+    <string name="help">Help</string>
 </resources>
