@@ -1,0 +1,18 @@
+Index: app/src/main/res/layout/admin.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<androidx.drawerlayout.widget.DrawerLayout\r\n    xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    android:orientation=\"vertical\"\r\n    tools:context=\".MainActivity\"\r\n    tools:openDrawer=\"start\">\r\n\r\n\r\n\r\n        <androidx.viewpager.widget.ViewPager\r\n            android:id=\"@+id/view_pager\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"match_parent\"/>\r\n        <include\r\n            layout=\"@layout/main_content\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"match_parent\"/>\r\n\r\n        <com.google.android.material.navigation.NavigationView\r\n            android:id=\"@+id/nav_view\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"match_parent\"\r\n            android:layout_gravity=\"start\"\r\n            android:fitsSystemWindows=\"true\"\r\n            app:headerLayout=\"@layout/header\"\r\n            app:menu=\"@menu/nav_header_menu\">\r\n        </com.google.android.material.navigation.NavigationView>\r\n</androidx.drawerlayout.widget.DrawerLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/admin.xml	(revision 73062d7e0d5ebc1af579f4dac9d1de2ff892e16d)
++++ app/src/main/res/layout/admin.xml	(date 1611113141343)
+@@ -9,8 +9,6 @@
+     tools:context=".MainActivity"
+     tools:openDrawer="start">
+ 
+-
+-
+         <androidx.viewpager.widget.ViewPager
+             android:id="@+id/view_pager"
+             android:layout_width="match_parent"
