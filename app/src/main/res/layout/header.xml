@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="200dp"
     android:animationCache="false"
-    android:background="@drawable/profile"
+    android:background="@drawable/ic_launcher_background"
     android:orientation="horizontal"
     android:padding="16dp">
 
@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
             android:layout_marginTop="32dp"
-            android:text="@string/tambah_produk"
+            android:text="@string/nama_profile"
             android:textColor="@android:color/black"
             android:textStyle="bold"/>
 
@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
             android:layout_marginTop="8dp"
-            android:text="@string/list_produk"
+            android:text="@string/prodi"
             android:textColor="@android:color/black"/>
     </LinearLayout>
 </LinearLayout>

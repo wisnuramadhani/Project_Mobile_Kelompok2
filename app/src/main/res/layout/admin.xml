@@ -3,16 +3,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="@android:color/white"
     tools:context=".MainActivity"
     tools:openDrawer="start">
-        
-        <androidx.viewpager.widget.ViewPager
-            android:id="@+id/view_pager"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+
         <include
             layout="@layout/main_content"
             android:layout_width="match_parent"
@@ -26,5 +23,6 @@
             android:fitsSystemWindows="true"
             app:headerLayout="@layout/header"
             app:menu="@menu/nav_header_menu">
+
         </com.google.android.material.navigation.NavigationView>
 </androidx.drawerlayout.widget.DrawerLayout>

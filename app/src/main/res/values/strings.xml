@@ -1,8 +1,20 @@
 <resources>
-    <string name="app_name">Project_Mobile_Kelompok2</string>
-    <string name="tambah_produk">Add</string>
-    <string name="list_produk">List</string>
-    <string name="edit_produk">Edit</string>
+    <string name="app_name">Projek</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="halaman_utama">Halaman Utama</string>
+    <string name="halaman_inbox">Halaman List User</string>
+    <string name="halaman_draft">Halaman List Barang</string>
+    <string name="halaman_send">Halaman Send</string>
+    <string name="nama_profile">Admin</string>
+    <string name="prodi">Teknik Informatika</string>
+    <string name="inbox">Add</string>
+    <string name="draft">List</string>
+    <string name="send">Edit</string>
+    <string name="halaman_help">Halaman Hekp</string>
+    <string name="halaman_setting">Halaman Setting</string>
     <string name="controls">Controls</string>
     <string name="setting">Setting</string>
     <string name="help">Help</string>
