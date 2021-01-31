@@ -10,16 +10,16 @@ import com.example.project_mobile_kelompok2.R
 
 /**
  * A simple [Fragment] subclass.
- * Use the [HalamanInbox.newInstance] factory method to
+ * Use the [HalamanHelp.newInstance] factory method to
  * create an instance of this fragment.
  */
-class HalamanInbox : Fragment() {
+class HalamanEditBarang : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_halaman_inbox, container, false)
+        return inflater.inflate(R.layout.fragment_halaman_edit_barang, container, false)
     }
 }

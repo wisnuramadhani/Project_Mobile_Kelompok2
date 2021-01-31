@@ -5,16 +5,25 @@
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="halaman_utama">Halaman Utama</string>
-    <string name="halaman_inbox">Halaman List User</string>
-    <string name="halaman_draft">Halaman List Barang</string>
-    <string name="halaman_send">Halaman Send</string>
+    <string name="halaman_user">Halaman List User</string>
+    <string name="halaman_barang">Halaman List Barang</string>
+    <string name="halaman_pesanan">Halaman Pesanan</string>
+
+    <string name="halaman_edit">Halaman Edit Barang</string>
+    <string name="halaman_edituser">Halaman Edit User</string>
+
+    <string name="halaman_add_user">Halaman Add User</string>
+    <string name="halaman_add_barang">Halaman Add Barang</string>
+
     <string name="nama_profile">Admin</string>
-    <string name="prodi">Teknik Informatika</string>
     <string name="inbox">Add</string>
     <string name="draft">List</string>
     <string name="send">Edit</string>
+    <string name="delete">Hapus</string>
+
     <string name="halaman_help">Halaman Hekp</string>
     <string name="halaman_setting">Halaman Setting</string>
+    <string name="Logout">Keluar</string>
     <string name="controls">Controls</string>
     <string name="setting">Setting</string>
     <string name="help">Help</string>

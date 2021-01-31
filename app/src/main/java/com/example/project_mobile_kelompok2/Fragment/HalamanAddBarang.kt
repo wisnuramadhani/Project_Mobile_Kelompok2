@@ -7,18 +7,19 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.project_mobile_kelompok2.R
 
+
 /**
  * A simple [Fragment] subclass.
- * Use the [HalamanDraft.newInstance] factory method to
+ * Use the [HalamanHelp.newInstance] factory method to
  * create an instance of this fragment.
  */
-class HalamanDraft : Fragment() {
+class HalamanAddBarang : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_halaman_draft, container, false)
+        return inflater.inflate(R.layout.fragment_halaman_add_barang, container, false)
     }
 }

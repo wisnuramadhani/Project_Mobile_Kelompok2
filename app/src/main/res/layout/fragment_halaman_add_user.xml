@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
-    tools:context=".Fragment.HalamanInbox">
+    tools:context=".Fragment.HalamanUtama">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
@@ -13,6 +13,6 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:gravity="center"
-        android:text="@string/halaman_inbox"
+        android:text="@string/halaman_user"
         android:textSize="30sp"/>
 </RelativeLayout>

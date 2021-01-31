@@ -13,11 +13,13 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() , NavigationView.OnNavigationItemSelectedListener{
 
     lateinit var toogle: ActionBarDrawerToggle
-    lateinit var inboxFragment: HalamanInbox
-    lateinit var draftFragment: HalamanDraft
-    lateinit var sendFragment: HalamanSend
+    lateinit var inboxFragment: HalamanUser
+    lateinit var draftFragment: HalamanUtama
+    lateinit var sendFragment: HalamanBarang
     lateinit var settingFragment: HalamanSetting
     lateinit var helpFragment: HalamanHelp
+    lateinit var editBarang: HalamanEditBarang
+    lateinit var editUser: HalamanEditUser
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -34,7 +36,7 @@ class MainActivity : AppCompatActivity() , NavigationView.OnNavigationItemSelect
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
             R.id.inbox -> {
-                inboxFragment = HalamanInbox()
+                inboxFragment = HalamanUser()
                 supportFragmentManager
                     .beginTransaction()
                     .replace(R.id.frame_layout, inboxFragment)
@@ -44,7 +46,7 @@ class MainActivity : AppCompatActivity() , NavigationView.OnNavigationItemSelect
                     .show()
             }
             R.id.draft -> {
-                draftFragment = HalamanDraft()
+                draftFragment = HalamanUtama()
                 supportFragmentManager
                     .beginTransaction()
                     .replace(R.id.frame_layout, draftFragment)
@@ -54,7 +56,7 @@ class MainActivity : AppCompatActivity() , NavigationView.OnNavigationItemSelect
                     .show()
             }
             R.id.send -> {
-                sendFragment = HalamanSend()
+                sendFragment = HalamanBarang()
                 supportFragmentManager
                     .beginTransaction()
                     .replace(R.id.frame_layout, sendFragment)

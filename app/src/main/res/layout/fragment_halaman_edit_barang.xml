@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white"
-    tools:context=".Fragment.HalamanHelp">
+    tools:context=".Fragment.HalamanEditBarang">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
@@ -13,6 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:gravity="center"
-        android:text="@string/halaman_help"
+        android:text="@string/halaman_edit"
         android:textSize="30sp"/>
-</RelativeLayout>
+
+</FrameLayout>
