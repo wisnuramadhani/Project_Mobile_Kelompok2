@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
 
     <color name="colorWhite">#FFFFFF</color>
 </resources>
+=======
+    <color name="colorA">#898989</color>
+    <color name="colorB">#987878</color>
+    <color name="colorC">#965438</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#292b3d</color>
+    <color name="grayLight">#fafafa</color>
+    <color name="starBlue">#09c6df</color>
+    <color name="endblue">#0bcce6</color>
+    <color name="endGreen">#ff2d9a59</color>
+    <color name="endblues">#ff42959a</color>
+    <color name="endbluees">#ff23729a</color>
+
+</resources>
+>>>>>>> master
