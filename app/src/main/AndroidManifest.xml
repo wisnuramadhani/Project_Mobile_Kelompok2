@@ -1,21 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.project_mobile_kelompok2">
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.workshopkotlin.myapplication">
 
     <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+            android:name="com.workshopkotlin.myapplication.App"
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name="com.workshopkotlin.myapplication.feature.CheckoutActivity">
+        </activity>
+        <activity android:name="com.workshopkotlin.myapplication.feature.DetailProductActivity">
+        </activity>
+        <activity android:name="com.workshopkotlin.myapplication.feature.ProductActivity">
+        </activity>
+        <activity android:name="com.workshopkotlin.myapplication.feature.RegisterActivity">
+        </activity>
+        <activity android:name="com.workshopkotlin.myapplication.feature.LoginActivity">
+        </activity>
+        <activity android:name="com.workshopkotlin.myapplication.feature.CreateProductActivity">
+        </activity>
+        <activity android:name="com.workshopkotlin.myapplication.feature.SplashScreenActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name="com.workshopkotlin.myapplication.feature.MainActivity"/>
     </application>
 
 </manifest>

@@ -1,30 +1,60 @@
 <resources>
-    <string name="app_name">Projek</string>
-    <string name="open">Open</string>
-    <string name="close">Close</string>
+    <string name="app_name">E-Design</string>
+    <string name="sub_app_name">Shopping Design</string>
+    <string name="label_latest_product">Produk terbaru</string>
 
+    <string name="label_password">Password</string>
+    <string name="label_email">Email</string>
+    <string name="label_register">Anda belum terdaftar? silahkan regsiterasi disini</string>
+    <string name="label_name">Nama lengkap</string>
+    <string name="label_login">Sudah terdaftar? login disini</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="halaman_utama">Halaman Utama</string>
-    <string name="halaman_user">Halaman List User</string>
-    <string name="halaman_barang">Halaman List Barang</string>
-    <string name="halaman_pesanan">Halaman Pesanan</string>
+    <string name="label_hint_produect">Produk Jeans</string>
+    <string name="label_hint_product_price">Rp.50.000</string>
+    <string name="label_details">Details</string>
+    <string name="label_hint_content"><![CDATA[>> SEMUA PRODUK KAMI MENDAPAT CASHBACK 3-5%
+        Sangat menguntungkan untuk dropshipper dan reseller
 
-    <string name="halaman_edit">Halaman Edit Barang</string>
-    <string name="halaman_edituser">Halaman Edit User</string>
+        SEMUA FOTO ADALAH REAL PICT
+        SUPPLIER FIRST HAND / TANGAN PERTAMA
 
-    <string name="halaman_add_user">Halaman Add User</string>
-    <string name="halaman_add_barang">Halaman Add Barang</string>
+        JAMINAN BARANG BERKUALITAS
+        TERBARU JAKET WINDBREAKER ORIGINAL FF, SUDAH RIBUAN TERJUAL DAN PEMBELI PUAS DENGAN DESIGN DAN BAHANNYA.
 
-    <string name="nama_profile">Admin</string>
-    <string name="inbox">Add</string>
-    <string name="draft">List</string>
-    <string name="send">Edit</string>
-    <string name="delete">Hapus</string>
+        Keistimewaan :
+        - Model Simpel Terbaru
+        - Parasut Motif
+        - Anti Angin / Anti Air (BEBERAPA MODEL)
+        - Kantong depan 3 buah dilengkapi resleting
+        - HOODIE DAN PINGGANG ADA TALI KARET PENGATUR
 
-    <string name="halaman_help">Halaman Hekp</string>
-    <string name="halaman_setting">Halaman Setting</string>
-    <string name="Logout">Keluar</string>
-    <string name="controls">Controls</string>
-    <string name="setting">Setting</string>
-    <string name="help">Help</string>
+        Code : Windbreaker Original FF
+        Material : Parasut dalam puring hyget lembut
+        Detail : Model Simpel, BEST QUALITY, Ada Kantong bagian dada sebelah kiri
+
+        —>> Ready Stock WARNA, SESUAI VARIAN DI ARTIKEL :
+
+        Size :
+        L : panjang 67cm, lebar 54cm
+        XL : tambah 2cm
+
+        >> KALIAN JUGA BISA CHECK PRODUK UNGGULAN TOKO KAMI, KLIK LINK DI BAWAH INI:]]></string>
+    <string name="label_checkout">Checkout</string>
+    <string name="label_shipping_address">Alamat Pengiriman</string>
+    <string name="label_hint_shipping_address">Masukan alamat pengiriman produk</string>
+    <string name="label_thanks">Terima Kasih!</string>
+    <string name="label_thanks_content">Pesanan anda sedang kami proses. Silahkan bersabar, karena admin janda sedang
+        mengantar Anak sekolah.
+    </string>
+    <string name="label_ok">OK</string>
+    <string name="label_cart">Barang dibeli</string>
+    <string name="label_cart_empty">Keranjang anda masuk kosong</string>
+    <string name="label_create_product">Tambahkan produk</string>
+    <string name="label_price">Harga</string>
+    <string name="label_name_product">Nama Product</string>
+    <string name="label_stock">Stok</string>
+    <string name="label_desc_product">Deskripsi produk</string>
+    <string name="label_profile">Profil</string>
 </resources>
