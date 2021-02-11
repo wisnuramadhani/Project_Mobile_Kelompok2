@@ -1,4 +1,8 @@
 <resources>
+<<<<<<< HEAD
+    <string name="app_name">Login and Registration</string>
+</resources>
+=======
     <string name="app_name">Project_Mobile_Kelompok2</string>
     <string name="tambah_produk">Add</string>
     <string name="list_produk">List</string>
@@ -7,3 +11,4 @@
     <string name="setting">Setting</string>
     <string name="help">Help</string>
 </resources>
+>>>>>>> master
